@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(90.2deg, rgba(222, 222, 222, 1) 4.3%, rgba(84, 84, 84, 0.01) 41.1%);
+}
+
+h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: darkblue;
+}
+
+
+h3 {
+    font-family: 'Cinzel Decorative', cursive;
+    color: darkblue;
+}
+
+h1 {
+    margin-top: 10%;
+    font-size: 300%;
+    color: darkblue;
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-top: 0;
+}
+
+li a {
+    font-weight: 500;
+}
+
+nav li {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+nav ul :hover {
+
+    color: #fff;
+    transform: scale(1.2);
+}
+
+nav a {
+
+    color: azure;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+.fuente {
+    font-size: 20px;
+    font-family: 'Ultra', serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    background-image: linear-gradient(109.6deg, rgba(1, 2, 32, 1) 11.2%, rgba(17, 22, 187, 1) 52.9%, rgba(29, 2, 1, 1) 100.2%);
+}
+
+header img {
+    width: 7%;
+    margin-left: 1px;
+}
+
+
+
+.parrafoIndex {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.parrafoIndex p {
+    font-size: 120%;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #100F10;
+    color: #fff;
+    margin-top: 8%;
+}
+
+footer h5 {
+    color: #ffffff;
+    margin-left: 18%;
+}
+
+
+
+.universo {
+    display: flex;
+}
+
+.universo img {
+    margin-top: 0;
+    margin-left: 20%;
+    margin-right: 10%;
+    height: 100%;
+    width: 30%;
+}
+
+.planetas h2 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.planetas p {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.galaxias {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galaxias p{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.galaxias img{
+    border-radius: 10px;
+    height: 300px;
+    width: 30%;
+}
+
+.galaxias h2 {
+    font-size: 30px;
+}
+
+.galaxias p{
+    font-size: 20px;
+}
+
+.planeta1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.planetaInfo {
+    display: flex;
+}
+
+.planetaInfo img {
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 200px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.planeta2Info{
+    display: flex;
+}
+
+.planeta2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.planeta2Info img {
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 200px;
+    width: 20%;
+    border-radius: 10px;
+
+}
+
+.planeta3Info{
+    display: flex;
+    
+}
+
+.planeta3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+
+}
+
+.planeta3Info img{
+    margin-top: 110px;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 16%;
+    height: 20%;
+    border-radius: 10px;
+
+}
+
+.planeta4Info{
+    display: flex;
+}
+
+.planeta4{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.planeta4Info img{
+    margin-top: 90px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 200px;
+    width: 16%;
+    border-radius: 10px;
+}
+
+.planeta5Info{
+    display: flex;
+}
+
+.planeta5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.planeta5Info img{
+    margin-top: 110px;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 200px;
+    width: 16%;
+    border-radius: 10px;
+}
+
+.how {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+
+.video iframe{
+    width: 40%;
+    margin-left: 10% ;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+
+@media (max-width: 820px) {
+    .universo img {
+        margin-top: 95px;
+        
+    }
+
+    h1 {
+        margin-top: 15%;
+    }
+
+    header img {
+        margin-top: 0%;
+        width: 12%;
+        height: 35%;
+    }
+
+    .planetas h2 {
+        margin-top: 20%;
+    }
+    .planeta2Info img{
+        margin-top: 150px;
+
+    }
+    .planeta3Info img{
+        margin-top: 170px;
+        width: 20%;
+        height: 200px;
+    
+    }
+    .planeta4Info img{
+        width: 20%;
+        
+    }
+    .planeta5Info img{
+        width: 20%;
+    }
+
+    .video iframe{
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 15% ;
+    }
+
+    .how{
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 390px) {
+    h1{
+        margin-top: 100px;
+    }
+
+    .how {
+        display: flex;
+        flex-direction: column;
+        margin-left: 5%;
+        margin-top: 15%;
+    }
+
+    .how ul{
+        margin-left: 3%;
+    }
+
+    .universo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .universo img {
+        margin-top: 20%;
+        height: 130%;
+        width: 60%;
+    }
+
+    .video iframe{
+        width: 70%;
+        margin-top: 10%;
+        margin-left: 15% ;
+    }
+
+    .planetaInfo {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+    }
+
+    .planeta1{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+    }
+
+    .planeta2Info{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0%;
+        margin-right: 5%;
+        margin-top: 5%;
+        font-size: 20px;
+    }
+
+    .planeta3Info{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+    }
+
+    .planeta4Info{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+    }
+
+    .planeta5Info{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+    }
+
+    .planetas h2 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .planeta3Info img{
+        margin-top: 5%;
+        margin-left: 10%;
+        height: 300px;
+        width: 88%;
+    }
+
+    .planeta4Info img{
+        margin-top: 5%;
+        margin-left: 10%;
+        height: 300px;
+        width: 88%;
+    }
+
+    .planeta5Info img{
+        margin-top: 5%;
+        margin-left: 10%;
+        height: 300px;
+        width: 88%;
+    }
+
+    .planetaInfo img{
+        margin-top: 20px;
+        margin-left: 5%;
+        margin-right: 20%;
+        height: 300px;
+        width: 88%;
+    }
+
+    .planeta2Info img {
+        margin-top: 20px;
+        margin-left: 10%;
+        margin-right: 20%;
+        height: 300px;
+        width: 88%;
+    }
+
+    .galaxias h2{
+        margin-top: 15%;
+        font-size: 20px;
+    }
+
+    .galaxias img{
+        margin-top: 15%;
+        margin-bottom: 10%;
+        height: 250px;
+        width: 70%;
+    }
+
+    header img {
+        margin-top: 3%;
+        width: 12%;
+        height: 35%;
+        margin-left: 0px;
+    }
+}
